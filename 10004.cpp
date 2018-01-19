@@ -1,14 +1,15 @@
+//prakash edited
 #include <algorithm>
 #include <iostream>
 #include <iterator>
-#include <numeric>
+/*#include <numeric>
 #include <sstream>
 #include <fstream>
 #include <cassert>
-#include <climits>
+#include <climits>*/
 #include <cstdlib>
 #include <cstring>
-#include <string>
+//#include <string>
 #include <cstdio>
 #include <vector>
 #include <cmath>
@@ -25,7 +26,7 @@ void TSuntil(int V,int x,vector<int>& color)
 {
 	 queue<int>q;
 	 color[x]=1;
-	 q.push(x);
+	 q.push(x);//lkjbfejrkjhgbetgyjj
 	while(!q.empty())
 	{
 		int p=q.front();
