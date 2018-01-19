@@ -1,3 +1,4 @@
+//Prakah editrw vgh
 #include <cstdio>
 #include <cstdlib>
 #include <cmath>
@@ -11,8 +12,8 @@ using namespace std;
 #define IN ({int n; scanf("%d", &n);	n;})
 #define CN ({char _char; scanf(" %c",&_char); _char;})
 #define REP(i, a, b) for (int i = int(a); i < int(b); i++)
-#define FR freopen("input.txt","r",stdin)
-#define FW freopen("output.txt","w",stdout)
+// #define FR freopen("input.txt","r",stdin)
+// #define FW freopen("output.txt","w",stdout)
 #define f first
 #define s second
 #define pb push_back	

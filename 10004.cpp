@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //prakash edited
 //naveen  ....
 #include <algorithm>
@@ -6,11 +7,21 @@
 #include <numeric>
 #include <sstream>
 #include <fstream>
+=======
+//prakash reedited this file 
+#include <algorithm>
+#include <iostream>
+#include <iterator>
+/*#include <numeric>
+#include <sstream>,vngekjvbgbty
+rrrtryhythyt
+#include <fstream>jlgvngki
+>>>>>>> d1d181e149d5b01827212c97130e7e983d54e7f9
 #include <cassert>
 #include <climits>
 #include <cstdlib>
 #include <cstring>
-//#include <string>
+//#include <string>56546846854
 #include <cstdio>
 #include <vector>
 #include <cmath>
@@ -18,7 +29,11 @@
 // #include <deque>
 #include <stack>
 #include <list>
+<<<<<<< HEAD
 // #include <map>
+=======
+//#include <map>
+>>>>>>> d1d181e149d5b01827212c97130e7e983d54e7f9
 #include <set>
 #include <bits/stdc++.h>
 using namespace std;
