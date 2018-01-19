@@ -1,23 +1,24 @@
 //prakash edited
+//naveen  ....
 #include <algorithm>
 #include <iostream>
 #include <iterator>
-/*#include <numeric>
+#include <numeric>
 #include <sstream>
 #include <fstream>
 #include <cassert>
-#include <climits>*/
+#include <climits>
 #include <cstdlib>
 #include <cstring>
 //#include <string>
 #include <cstdio>
 #include <vector>
 #include <cmath>
-#include <queue>
-#include <deque>
+// #include <queue>
+// #include <deque>
 #include <stack>
 #include <list>
-#include <map>
+// #include <map>
 #include <set>
 #include <bits/stdc++.h>
 using namespace std;
@@ -98,27 +99,27 @@ void TS(int V)
 		else 
 			cout<<"BICOLORABLE.";
 }
-int main()
-{
-	int V,E,x,y;
-	while(1)
-	{
-	cin>>V>>E;
-	if(V==0)
-		break;
-	adj.clear();
-	adj.resize(V);
+// int main()
+// {
+// 	int V,E,x,y;
+// 	while(1)
+// 	{
+// 	cin>>V>>E;
+// 	if(V==0)
+// 		break;
+// 	adj.clear();
+// 	adj.resize(V);
 
-	for (int i = 0; i < E; ++i)
-	{
-		cin>>x>>y;
-		adj[x].push_back(y);
-		adj[y].push_back(x);
-	}
+// 	for (int i = 0; i < E; ++i)
+// 	{
+// 		cin>>x>>y;
+// 		adj[x].push_back(y);
+// 		adj[y].push_back(x);
+// 	}
 
-	TS(V);
+// 	TS(V);
 
-	cout<<endl;
-	}
-	return 0;
-}
+// 	cout<<endl;
+// 	}
+// 	return 0;
+// }
